@@ -1,0 +1,787 @@
+{
+  "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile",
+  "reactNativePath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native",
+  "reactNativeVersion": "0.73",
+  "dependencies": {
+    "@react-native-community/async-storage": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/async-storage",
+      "name": "@react-native-community/async-storage",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/async-storage/RNCAsyncStorage.podspec",
+          "version": "1.6.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/async-storage/android",
+          "packageImportPath": "import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;",
+          "packageInstance": "new AsyncStoragePackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "@react-native-community/netinfo": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/netinfo",
+      "name": "@react-native-community/netinfo",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/netinfo/react-native-netinfo.podspec",
+          "version": "4.1.3",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/netinfo/android",
+          "packageImportPath": "import com.reactnativecommunity.netinfo.NetInfoPackage;",
+          "packageInstance": "new NetInfoPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/@react-native-community/netinfo/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-autogrow-textinput": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-autogrow-textinput",
+      "name": "react-native-autogrow-textinput",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-autogrow-textinput/ReactNativeAutogrowTextinput.podspec",
+          "version": "5.4.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-autogrow-textinput/android",
+          "packageImportPath": "import com.wix.autogrowtextinput.AutoGrowTextInputPackage;",
+          "packageInstance": "new AutoGrowTextInputPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-autogrow-textinput/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-camera": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-camera",
+      "name": "react-native-camera",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-camera/react-native-camera.podspec",
+          "version": "4.2.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-camera/android",
+          "packageImportPath": "import org.reactnative.camera.RNCameraPackage;",
+          "packageInstance": "new RNCameraPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-camera/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-exit-app": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-exit-app",
+      "name": "react-native-exit-app",
+      "platforms": {
+        "ios": null,
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-exit-app/android",
+          "packageImportPath": "import com.github.wumke.RNExitApp.RNExitAppPackage;",
+          "packageInstance": "new RNExitAppPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-exit-app/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+   
+    "react-native-gesture-handler": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "version": "1.3.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-gesture-handler/android",
+          "packageImportPath": "import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-keychain": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-keychain",
+      "name": "react-native-keychain",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-keychain/RNKeychain.podspec",
+          "version": "3.1.3",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-keychain/android",
+          "packageImportPath": "import com.oblador.keychain.KeychainPackage;",
+          "packageInstance": "new KeychainPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-keychain/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-permissions": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-permissions",
+      "name": "react-native-permissions",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-permissions/ReactNativePermissions.podspec",
+          "version": "1.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": null
+      }
+    },
+    "react-native-randombytes": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-randombytes",
+      "name": "react-native-randombytes",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-randombytes/react-native-randombytes.podspec",
+          "version": "3.5.3",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-randombytes/android",
+          "packageImportPath": "import com.bitgo.randombytes.RandomBytesPackage;",
+          "packageInstance": "new RandomBytesPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-randombytes/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-svg": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-svg",
+      "name": "react-native-svg",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-svg/RNSVG.podspec",
+          "version": "9.5.3",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-svg/android",
+          "packageImportPath": "import com.horcrux.svg.SvgPackage;",
+          "packageInstance": "new SvgPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-svg/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-tcp": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-tcp",
+      "name": "react-native-tcp",
+      "platforms": {
+        "ios": null,
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-tcp/android",
+          "packageImportPath": "import com.peel.react.TcpSocketsModule;",
+          "packageInstance": "new TcpSocketsModule()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-tcp/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-udp": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-udp",
+      "name": "react-native-udp",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-udp/react-native-udp.podspec",
+          "version": "2.6.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-udp/android",
+          "packageImportPath": "import com.tradle.react.UdpSocketsModule;",
+          "packageInstance": "new UdpSocketsModule()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-udp/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-vector-icons": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-vector-icons",
+      "name": "react-native-vector-icons",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "version": "6.7.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-vector-icons/android",
+          "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
+          "packageInstance": "new VectorIconsPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    },
+    "react-native-webrtc": {
+      "root": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-webrtc",
+      "name": "react-native-webrtc",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-webrtc/react-native-webrtc.podspec",
+          "version": "1.84.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-webrtc/android",
+          "packageImportPath": "import com.oney.WebRTCModule.WebRTCModulePackage;",
+          "packageInstance": "new WebRTCModulePackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/node_modules/react-native-webrtc/android/build/generated/source/codegen/jni/CMakeLists.txt"
+        }
+      }
+    }
+  },
+  "commands": [
+    {
+      "name": "log-ios",
+      "description": "starts iOS device syslog tail",
+      "options": [
+        {
+          "name": "--interactive",
+          "description": "Explicitly select simulator to tail logs from. By default it will tail logs from the first booted and available simulator."
+        }
+      ]
+    },
+    {
+      "name": "run-ios",
+      "description": "builds your app and starts it on iOS simulator",
+      "examples": [
+        {
+          "desc": "Run on a different simulator, e.g. iPhone SE (2nd generation)",
+          "cmd": "npx react-native run-ios --simulator \"iPhone SE (2nd generation)\""
+        },
+        {
+          "desc": "Run on a connected device, e.g. Max's iPhone",
+          "cmd": "npx react-native run-ios --device \"Max's iPhone\""
+        },
+        {
+          "desc": "Run on the AppleTV simulator",
+          "cmd": "npx react-native run-ios --simulator \"Apple TV\"  --scheme \"helloworld-tvOS\""
+        }
+      ],
+      "options": [
+        {
+          "name": "--mode <string>",
+          "description": "Explicitly set the scheme configuration to use. This option is case sensitive."
+        },
+        {
+          "name": "--scheme <string>",
+          "description": "Explicitly set Xcode scheme to use"
+        },
+        {
+          "name": "--destination <string>",
+          "description": "Explicitly extend destination e.g. \"arch=x86_64\""
+        },
+        {
+          "name": "--verbose",
+          "description": "Do not use xcbeautify or xcpretty even if installed"
+        },
+        {
+          "name": "--xcconfig [string]",
+          "description": "Explicitly set xcconfig to use"
+        },
+        {
+          "name": "--buildFolder <string>",
+          "description": "Location for iOS build artifacts. Corresponds to Xcode's \"-derivedDataPath\"."
+        },
+        {
+          "name": "--extra-params <string>",
+          "description": "Custom params that will be passed to xcodebuild command."
+        },
+        {
+          "name": "--target <string>",
+          "description": "Explicitly set Xcode target to use."
+        },
+        {
+          "name": "--interactive",
+          "description": "Explicitly select which scheme and configuration to use before running a build"
+        },
+        {
+          "name": "--force-pods",
+          "description": "Force CocoaPods installation"
+        },
+        {
+          "name": "--no-packager",
+          "description": "Do not launch packager while running the app"
+        },
+        {
+          "name": "--port <number>",
+          "default": 8081
+        },
+        {
+          "name": "--terminal <string>",
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
+          "default": "vscode"
+        },
+        {
+          "name": "--binary-path <string>",
+          "description": "Path relative to project root where pre-built .app binary lives."
+        },
+        {
+          "name": "--list-devices",
+          "description": "List all available iOS devices and simulators and let you choose one to run the app. "
+        },
+        {
+          "name": "--simulator <string>",
+          "description": "Explicitly set the simulator to use. Optionally set the iOS version between parentheses at the end to match an exact version: \"iPhone 15 (17.0)\""
+        },
+        {
+          "name": "--device <string>",
+          "description": "Explicitly set the device to use by name. The value is not required if you have a single device connected."
+        },
+        {
+          "name": "--udid <string>",
+          "description": "Explicitly set the device to use by UDID"
+        }
+      ]
+    },
+    {
+      "name": "build-ios",
+      "description": "builds your app for iOS platform",
+      "examples": [
+        {
+          "desc": "Build the app for all iOS devices in Release mode",
+          "cmd": "npx react-native build-ios --mode \"Release\""
+        }
+      ],
+      "options": [
+        {
+          "name": "--mode <string>",
+          "description": "Explicitly set the scheme configuration to use. This option is case sensitive."
+        },
+        {
+          "name": "--scheme <string>",
+          "description": "Explicitly set Xcode scheme to use"
+        },
+        {
+          "name": "--destination <string>",
+          "description": "Explicitly extend destination e.g. \"arch=x86_64\""
+        },
+        {
+          "name": "--verbose",
+          "description": "Do not use xcbeautify or xcpretty even if installed"
+        },
+        {
+          "name": "--xcconfig [string]",
+          "description": "Explicitly set xcconfig to use"
+        },
+        {
+          "name": "--buildFolder <string>",
+          "description": "Location for iOS build artifacts. Corresponds to Xcode's \"-derivedDataPath\"."
+        },
+        {
+          "name": "--extra-params <string>",
+          "description": "Custom params that will be passed to xcodebuild command."
+        },
+        {
+          "name": "--target <string>",
+          "description": "Explicitly set Xcode target to use."
+        },
+        {
+          "name": "--interactive",
+          "description": "Explicitly select which scheme and configuration to use before running a build"
+        },
+        {
+          "name": "--force-pods",
+          "description": "Force CocoaPods installation"
+        }
+      ]
+    },
+    {
+      "name": "log-android",
+      "description": "starts logkitty"
+    },
+    {
+      "name": "run-android",
+      "description": "builds your app and starts it on a connected Android emulator or device",
+      "options": [
+        {
+          "name": "--mode <string>",
+          "description": "Specify your app's build variant"
+        },
+        {
+          "name": "--tasks <list>",
+          "description": "Run custom Gradle tasks. By default it's \"assembleDebug\". Will override passed mode and variant arguments."
+        },
+        {
+          "name": "--active-arch-only",
+          "description": "Build native libraries only for the current device architecture for debug builds.",
+          "default": false
+        },
+        {
+          "name": "--extra-params <string>",
+          "description": "Custom params passed to gradle build command"
+        },
+        {
+          "name": "--interactive",
+          "description": "Explicitly select build type and flavour to use before running a build"
+        },
+        {
+          "name": "--no-packager",
+          "description": "Do not launch packager while running the app"
+        },
+        {
+          "name": "--port <number>",
+          "default": 8081
+        },
+        {
+          "name": "--terminal <string>",
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
+          "default": "vscode"
+        },
+        {
+          "name": "--appId <string>",
+          "description": "Specify an applicationId to launch after build. If not specified, `package` from AndroidManifest.xml will be used.",
+          "default": ""
+        },
+        {
+          "name": "--appIdSuffix <string>",
+          "description": "Specify an applicationIdSuffix to launch after build.",
+          "default": ""
+        },
+        {
+          "name": "--main-activity <string>",
+          "description": "Name of the activity to start"
+        },
+        {
+          "name": "--deviceId <string>",
+          "description": "builds your app and starts it on a specific device/simulator with the given device id (listed by running \"adb devices\" on the command line)."
+        },
+        {
+          "name": "--list-devices",
+          "description": "Lists all available Android devices and simulators and let you choose one to run the app",
+          "default": false
+        },
+        {
+          "name": "--binary-path <string>",
+          "description": "Path relative to project root where pre-built .apk binary lives."
+        },
+        {
+          "name": "--user <number>",
+          "description": "Id of the User Profile you want to install the app on."
+        }
+      ]
+    },
+    {
+      "name": "build-android",
+      "description": "builds your app",
+      "options": [
+        {
+          "name": "--mode <string>",
+          "description": "Specify your app's build variant"
+        },
+        {
+          "name": "--tasks <list>",
+          "description": "Run custom Gradle tasks. By default it's \"assembleDebug\". Will override passed mode and variant arguments."
+        },
+        {
+          "name": "--active-arch-only",
+          "description": "Build native libraries only for the current device architecture for debug builds.",
+          "default": false
+        },
+        {
+          "name": "--extra-params <string>",
+          "description": "Custom params passed to gradle build command"
+        },
+        {
+          "name": "--interactive",
+          "description": "Explicitly select build type and flavour to use before running a build"
+        }
+      ]
+    },
+    {
+      "name": "bundle",
+      "description": "Build the bundle for the provided JavaScript entry file.",
+      "options": [
+        {
+          "name": "--entry-file <path>",
+          "description": "Path to the root JS file, either absolute or relative to JS root"
+        },
+        {
+          "name": "--platform <string>",
+          "description": "Either \"ios\" or \"android\"",
+          "default": "ios"
+        },
+        {
+          "name": "--transformer <string>",
+          "description": "Specify a custom transformer to be used"
+        },
+        {
+          "name": "--dev [boolean]",
+          "description": "If false, warnings are disabled and the bundle is minified",
+          "default": true
+        },
+        {
+          "name": "--minify [boolean]",
+          "description": "Allows overriding whether bundle is minified. This defaults to false if dev is true, and true if dev is false. Disabling minification can be useful for speeding up production builds for testing purposes."
+        },
+        {
+          "name": "--bundle-output <string>",
+          "description": "File name where to store the resulting bundle, ex. /tmp/groups.bundle"
+        },
+        {
+          "name": "--bundle-encoding <string>",
+          "description": "Encoding the bundle should be written in (https://nodejs.org/api/buffer.html#buffer_buffer).",
+          "default": "utf8"
+        },
+        {
+          "name": "--max-workers <number>",
+          "description": "Specifies the maximum number of workers the worker-pool will spawn for transforming files. This defaults to the number of the cores available on your machine."
+        },
+        {
+          "name": "--sourcemap-output <string>",
+          "description": "File name where to store the sourcemap file for resulting bundle, ex. /tmp/groups.map"
+        },
+        {
+          "name": "--sourcemap-sources-root <string>",
+          "description": "Path to make sourcemap's sources entries relative to, ex. /root/dir"
+        },
+        {
+          "name": "--sourcemap-use-absolute-path",
+          "description": "Report SourceMapURL using its full path",
+          "default": false
+        },
+        {
+          "name": "--assets-dest <string>",
+          "description": "Directory name where to store assets referenced in the bundle"
+        },
+        {
+          "name": "--unstable-transform-profile <string>",
+          "description": "Experimental, transform JS for a specific JS engine. Currently supported: hermes, hermes-canary, default",
+          "default": "default"
+        },
+        {
+          "name": "--asset-catalog-dest [string]",
+          "description": "Path where to create an iOS Asset Catalog for images"
+        },
+        {
+          "name": "--reset-cache",
+          "description": "Removes cached files",
+          "default": false
+        },
+        {
+          "name": "--read-global-cache",
+          "description": "Try to fetch transformed JS code from the global cache, if configured.",
+          "default": false
+        },
+        {
+          "name": "--config <string>",
+          "description": "Path to the CLI configuration file"
+        }
+      ]
+    },
+    {
+      "name": "ram-bundle",
+      "description": "Build the RAM bundle for the provided JavaScript entry file. See https://reactnative.dev/docs/ram-bundles-inline-requires.",
+      "options": [
+        {
+          "name": "--entry-file <path>",
+          "description": "Path to the root JS file, either absolute or relative to JS root"
+        },
+        {
+          "name": "--platform <string>",
+          "description": "Either \"ios\" or \"android\"",
+          "default": "ios"
+        },
+        {
+          "name": "--transformer <string>",
+          "description": "Specify a custom transformer to be used"
+        },
+        {
+          "name": "--dev [boolean]",
+          "description": "If false, warnings are disabled and the bundle is minified",
+          "default": true
+        },
+        {
+          "name": "--minify [boolean]",
+          "description": "Allows overriding whether bundle is minified. This defaults to false if dev is true, and true if dev is false. Disabling minification can be useful for speeding up production builds for testing purposes."
+        },
+        {
+          "name": "--bundle-output <string>",
+          "description": "File name where to store the resulting bundle, ex. /tmp/groups.bundle"
+        },
+        {
+          "name": "--bundle-encoding <string>",
+          "description": "Encoding the bundle should be written in (https://nodejs.org/api/buffer.html#buffer_buffer).",
+          "default": "utf8"
+        },
+        {
+          "name": "--max-workers <number>",
+          "description": "Specifies the maximum number of workers the worker-pool will spawn for transforming files. This defaults to the number of the cores available on your machine."
+        },
+        {
+          "name": "--sourcemap-output <string>",
+          "description": "File name where to store the sourcemap file for resulting bundle, ex. /tmp/groups.map"
+        },
+        {
+          "name": "--sourcemap-sources-root <string>",
+          "description": "Path to make sourcemap's sources entries relative to, ex. /root/dir"
+        },
+        {
+          "name": "--sourcemap-use-absolute-path",
+          "description": "Report SourceMapURL using its full path",
+          "default": false
+        },
+        {
+          "name": "--assets-dest <string>",
+          "description": "Directory name where to store assets referenced in the bundle"
+        },
+        {
+          "name": "--unstable-transform-profile <string>",
+          "description": "Experimental, transform JS for a specific JS engine. Currently supported: hermes, hermes-canary, default",
+          "default": "default"
+        },
+        {
+          "name": "--asset-catalog-dest [string]",
+          "description": "Path where to create an iOS Asset Catalog for images"
+        },
+        {
+          "name": "--reset-cache",
+          "description": "Removes cached files",
+          "default": false
+        },
+        {
+          "name": "--read-global-cache",
+          "description": "Try to fetch transformed JS code from the global cache, if configured.",
+          "default": false
+        },
+        {
+          "name": "--config <string>",
+          "description": "Path to the CLI configuration file"
+        },
+        {
+          "name": "--indexed-ram-bundle",
+          "description": "Force the \"Indexed RAM\" bundle file format, even when building for android",
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "start",
+      "description": "Start the React Native development server.",
+      "options": [
+        {
+          "name": "--port <number>"
+        },
+        {
+          "name": "--host <string>",
+          "default": ""
+        },
+        {
+          "name": "--projectRoot <path>",
+          "description": "Path to a custom project root"
+        },
+        {
+          "name": "--watchFolders <list>",
+          "description": "Specify any additional folders to be added to the watch list"
+        },
+        {
+          "name": "--assetPlugins <list>",
+          "description": "Specify any additional asset plugins to be used by the packager by full filepath"
+        },
+        {
+          "name": "--sourceExts <list>",
+          "description": "Specify any additional source extensions to be used by the packager"
+        },
+        {
+          "name": "--max-workers <number>",
+          "description": "Specifies the maximum number of workers the worker-pool will spawn for transforming files. This defaults to the number of the cores available on your machine."
+        },
+        {
+          "name": "--transformer <string>",
+          "description": "Specify a custom transformer to be used"
+        },
+        {
+          "name": "--reset-cache, --resetCache",
+          "description": "Removes cached files"
+        },
+        {
+          "name": "--custom-log-reporter-path, --customLogReporterPath <string>",
+          "description": "Path to a JavaScript file that exports a log reporter as a replacement for TerminalReporter"
+        },
+        {
+          "name": "--https",
+          "description": "Enables https connections to the server"
+        },
+        {
+          "name": "--key <path>",
+          "description": "Path to custom SSL key"
+        },
+        {
+          "name": "--cert <path>",
+          "description": "Path to custom SSL cert"
+        },
+        {
+          "name": "--config <string>",
+          "description": "Path to the CLI configuration file"
+        },
+        {
+          "name": "--no-interactive",
+          "description": "Disables interactive mode"
+        },
+        {
+          "name": "--experimental-debugger",
+          "description": "[Experimental] Enable the new debugger experience and 'j' to debug. This enables the new frontend experience only: connection reliability and some basic features are unstable in this release."
+        }
+      ]
+    }
+  ],
+  "healthChecks": [],
+  "platforms": {
+    "ios": {},
+    "android": {}
+  },
+  "project": {
+    "ios": {
+      "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/ios",
+      "xcodeProject": {
+        "name": "TonChan.xcodeproj",
+        "isWorkspace": false
+      }
+    },
+    "android": {
+      "sourceDir": "/Users/getlaptoppk/Documents/GitHub/hugin-mobile/android",
+      "appName": "app",
+      "packageName": "com.hugin",
+      "applicationId": "com.hugin",
+      "mainActivity": ".MainActivity"
+    }
+  }
+}

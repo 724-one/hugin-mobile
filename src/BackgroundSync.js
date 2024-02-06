@@ -2,7 +2,7 @@
 //
 // Please see the included LICENSE file for more information.
 
-import BackgroundFetch from 'react-native-background-fetch';
+// import BackgroundFetch from 'react-native-background-fetch';
 
 import { AppState, Platform, PushNotificationIOS } from 'react-native';
 

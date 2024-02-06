@@ -4,7 +4,7 @@
 
 import PINCode, { hasUserSetPinCode, deleteUserPinCode } from '@haskkor/react-native-pincode';
 
-import FingerprintScanner from 'react-native-fingerprint-scanner';
+// import FingerprintScanner from 'react-native-fingerprint-scanner';
 
 import * as Animatable from 'react-native-animatable';
 

@@ -4,8 +4,16 @@ android/app/.externalNativeBuild
 android/.gradle
 .idea
 android/build
+ios/.xcode.env.local
 ios/sentry.properties
 android/app/my-release-key.keystore
 .DS_STORE
 src/nodes.json
 src/groups.json
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+Bundle artifact
+*.jsbundle
+# Ruby / CocoaPods/ios/Pods/vendor/bundle/
