@@ -1,4 +1,4 @@
-package com.rndiffapp
+package com.hugin
 import android.app.Application
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
@@ -11,7 +11,7 @@ import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
 
-import com.hieuvp.fingerprint.ReactNativeFingerprintScannerPackage;
+
 
 class MainApplication : Application(), ReactApplication {
   override val reactNativeHost: ReactNativeHost =

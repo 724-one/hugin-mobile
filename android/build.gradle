@@ -1,10 +1,37 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs').readFileSync(require.resolve('react-native/package.json'), 'utf-8')).version"].execute(null, rootDir).text.trim())
+// // Top-level build file where you can add configuration options common to all sub-projects/modules.
+// def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs').readFileSync(require.resolve('react-native/package.json'), 'utf-8')).version"].execute(null, rootDir).text.trim())
+
+// buildscript {
+//     ext {
+//         buildToolsVersion = "34.0.0"
+//         minSdkVersion = 21
+//         compileSdkVersion = 34
+//         targetSdkVersion = 34
+//         ndkVersion = "25.1.8937393"
+//         kotlinVersion = "1.8.0"
+//     }
+//     repositories {
+//         google()
+// 	mavenCentral()
+//     jcenter()
+// 	maven { url 'https://jitpack.io' }
+    
+//     }
+//     dependencies {
+//         classpath("com.android.tools.build:gradle")
+//         classpath("com.facebook.react:react-native-gradle-plugin")
+//         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+//     }
+// }
+
+
+// apply plugin: "com.facebook.react.rootproject"
+
 
 buildscript {
     ext {
         buildToolsVersion = "34.0.0"
-        minSdkVersion = 21
+        minSdkVersion = 24
         compileSdkVersion = 34
         targetSdkVersion = 34
         ndkVersion = "25.1.8937393"
@@ -12,17 +39,13 @@ buildscript {
     }
     repositories {
         google()
-	mavenCentral()
-    jcenter()
-	maven { url 'https://jitpack.io' }
-    
+        mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
+        classpath("com.android.tools.build:gradle")      
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        
     }
 }
-
-
 apply plugin: "com.facebook.react.rootproject"
