@@ -1,23 +1,27 @@
-// // Copyright (C) 2018-2019, Zpalmtree
-// //
-// // Please see the included LICENSE file for more information.
+// Copyright (C) 2018-2019, Zpalmtree
+// Please see the included LICENSE file for more information.
 
-// import './shim';
+import './shim';
 
-// import { AppRegistry } from 'react-native';
+import { AppRegistry,LogBox } from 'react-native';
+
+
+
+LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
+LogBox.ignoreAllLogs();
 
 // import BackgroundFetch from 'react-native-background-fetch';
 
-// import { name as appName } from './app.json';
+import { name as appName } from './app.json';
 
-// import App from './src/App';
-// import { Globals } from './src/Globals';
-// import { backgroundSync } from './src/BackgroundSync';
+import App from './src/App';
+import { Globals } from './src/Globals';
+import { backgroundSync } from './src/BackgroundSync';
 
-// /* Stub out console.log in production */
-// if (!__DEV__) {
-//     console.log = () => {};
-// }
+/* Stub out console.log in production */
+if (!__DEV__) {
+    console.log = () => {};
+}
 
 // BackgroundFetch.registerHeadlessTask(async () => {
 //     try {
@@ -27,18 +31,18 @@
 //     }
 // });
 
-// AppRegistry.registerComponent(appName, () => App);
-
-
-
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-console.log(">>>>>",appName)
-
-import { LogBox } from 'react-native'
-
-LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
-LogBox.ignoreAllLogs();
-
 AppRegistry.registerComponent(appName, () => App);
+
+
+
+// import {AppRegistry} from 'react-native';
+// // import App from './App';
+// import {name as appName} from './app.json';
+// // console.log(">>>>>",appName)
+
+// import { LogBox } from 'react-native'
+
+// LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
+// LogBox.ignoreAllLogs();
+
+// AppRegistry.registerComponent(appName, () => App);

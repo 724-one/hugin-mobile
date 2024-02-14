@@ -6,10 +6,13 @@ import React, { useState, useCallback } from "react";
 
 import FontAwesome from 'react-native-vector-icons/FontAwesome5';
 
+
+// import { Linking } from 'react-native';
+
 import * as Animatable from 'react-native-animatable';
 
 import QRCode from 'react-native-qrcode-svg';
-import NativeLinking from "react-native/Libraries/Linking/NativeLinking";
+// import NativeLinking from "react-native/Libraries/Linking/NativeLinking";
 import PushNotification from 'react-native-push-notification';
 import { NavigationActions, NavigationEvents, NavigationState } from 'react-navigation';
 
@@ -153,7 +156,7 @@ async function init(navigation) {
         requestPermissions: true,
     });
 
-    NativeLinking.getInitialURL().then((url) => {
+    Linking.getInitialURL().then((url) => {
       if (url) {
 
 

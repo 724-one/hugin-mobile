@@ -54,7 +54,7 @@ import { saveToDatabase, getMessages, getLatestMessages, removeMessage, markConv
 import './i18n.js';
 import { withTranslation } from 'react-i18next';
 
-import {AutoGrowingTextInput} from 'react-native-autogrow-textinput';
+// import {AutoGrowingTextInput} from 'react-native-autogrow-textinput';
 
 import CustomIcon from './CustomIcon.js'
 
@@ -192,10 +192,10 @@ export class RecipientsScreenNoTranslation extends React.Component {
                                     color: this.props.screenProps.theme.primaryColour,
                                     fontFamily: 'Montserrat-SemiBold'
                                 }}showsVerticalScrollIndicator={false}
-                                subtitleStyle={{
-                                    color: this.props.screenProps.theme.slightlyMoreVisibleColour,
-                                    fontFamily: 'Montserrat-Regular'
-                                }}
+                                // subtitleStyle={{
+                                //     color: this.props.screenProps.theme.slightlyMoreVisibleColour,
+                                //     fontFamily: 'Montserrat-Regular'
+                                // }}
                                 onPress={async () => {
                                     this.props.navigation.navigate(
                                         'ChatScreen', {
@@ -1184,7 +1184,7 @@ export class ChatScreenNoTranslation extends React.Component {
                       borderRadius: 15
                   }}
                 >
-                <AutoGrowingTextInput
+                {/* <AutoGrowingTextInput
                     multiline={true}
                     textAlignVertical={'top'}
                     ref={this.state.input}
@@ -1214,7 +1214,7 @@ export class ChatScreenNoTranslation extends React.Component {
                         this.setState({messageHasLength: this.state.message.length > 0});
                     }}
                     errorMessage={this.props.error}
-                />
+                /> */}
                 </View>
                 {this.state.messageHasLength &&
 
