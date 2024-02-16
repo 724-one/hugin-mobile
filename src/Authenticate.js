@@ -12,7 +12,7 @@ import RNExitApp from 'react-native-exit-app';
 
 import React from 'react';
 
-import { View, Alert, Text, Platform, Image, Switch } from 'react-native';
+import { View, Alert, Text, Platform, Image, Switch, TouchableOpacity } from 'react-native';
 
 import { Button } from 'react-native-elements';
 
@@ -316,7 +316,51 @@ class ChooseAuthMethodScreenNoTranslation extends React.Component {
 
                     </View>
 
-                    <BottomButton
+                    <View style={{
+                        position:"relative",
+                        alignItems:"stretch",
+                        justifyContent:"center",
+                        width:"100%",
+                        bottom:0
+                    }}>
+                        <TouchableOpacity 
+                          style={{width:"100%",padding:10,justifyContent:"center",alignItems:"center",backgroundColour:this.props.screenProps.theme.buttonColour}}
+                        
+                          onPress={() => {
+                            (async() => {
+                                let method = 'none';
+
+                                if (this.state.hardwareAuth) {
+                                    method = 'hardware-auth';
+                                } else if (this.state.pinCode) {
+                                    method = 'pincode';
+                                }
+
+                                Globals.preferences.authenticationMethod = method;
+
+                                savePreferencesToDatabase(Globals.preferences);
+
+                                const havePincode = await hasUserSetPinCode();
+
+                                if (method === 'none' || havePincode) {
+                                    console.log(">>>>>>>>>>>",this.props.navigation.state.params.nextRoute)
+                                    this.props.navigation.navigate(this.props.navigation.state.params.nextRoute);
+                                } else {
+                                    this.props.navigation.navigate('SetPin', {
+                                        nextRoute: this.props.navigation.state.params.nextRoute
+                                    });
+                                }
+                            })();
+                        }}
+                        disabled={!(this.state.noAuth || this.state.pinCode || this.state.hardwareAuth)}
+                        >
+                         <Text style={{color:"#FFFFFF"}}>{t('continue')}</Text>
+                        </TouchableOpacity>
+
+                    </View>
+
+
+                    {/* <BottomButton
                         title={t('continue')}
                         onPress={() => {
                             (async() => {
@@ -345,7 +389,7 @@ class ChooseAuthMethodScreenNoTranslation extends React.Component {
                         }}
                         disabled={!(this.state.noAuth || this.state.pinCode || this.state.hardwareAuth)}
                         {...this.props}
-                    />
+                    /> */}
                 </View>
             </View>
         );
@@ -373,7 +417,10 @@ export class SetPinScreen extends React.Component {
 
     render() {
         const subtitle = `to keep your ${Config.coinName} secure`;
-
+        
+        return(
+            <Text>helo </Text>
+        )
         return(
             <View style={{
                 flex: 1,
@@ -480,6 +527,7 @@ export class RequestPinScreen extends React.Component {
     }
 
     render() {
+        
         return(
             <View
                 style={{

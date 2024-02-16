@@ -149,6 +149,7 @@ class CreateWalletScreenNoTranslation extends React.Component {
 
     render() {
       const { t } = this.props;
+      
         return(
             <View style={{ flex: 1, justifyContent: 'flex-start', backgroundColor: this.props.screenProps.theme.backgroundColour }}>
                 <View style={{
@@ -184,11 +185,11 @@ class CreateWalletScreenNoTranslation extends React.Component {
                         {...this.props}
                     /> }
 
-                    <BottomButton
+                    {/* <BottomButton
                         title="Continue"
                         onPress={() => this.props.navigation.navigate('Home')}
                         {...this.props}
-                    />
+                    /> */}
                 </View>
 
             </View>
