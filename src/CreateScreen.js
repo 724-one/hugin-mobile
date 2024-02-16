@@ -5,7 +5,7 @@
 import React from 'react';
 
 import {
-    View, Text, Button, Image,
+    View, Text, Button, Image, TouchableOpacity,
 } from 'react-native';
 
 import { WalletBackend } from 'kryptokrona-wallet-backend-js';
@@ -72,14 +72,31 @@ class WalletOptionScreenNoTranslation extends React.Component {
                     </Text>
                 </View>
 
-                <View style={[Styles.buttonContainer, {fontFamily: "Montserrat-Regular", bottom: 160, position: 'absolute', alignItems: 'stretch', justifyContent: 'center', width: '100%'}]}>
+                <View style={{
+                    position:"absolute",
+                    alignItems:"stretch",
+                    justifyContent:"center",
+                    width:'100%',
+                    bottom:160
+                }}>
+                    <TouchableOpacity 
+                    style={{width:"100%",padding:10,justifyContent:"center",alignItems:"center",
+                     backgroundColor:this.props.screenProps.theme.buttonColour}}
+                     onPress={() => this.props.navigation.navigate('Disclaimer', { nextRoute: 'CreateWallet' })}
+                     >
+                        <Text style={{color:"#FFFFFF"}}>{t('createNewAccount')}</Text>
+                    </TouchableOpacity>
+
+                </View>
+
+                {/* <View style={[Styles.buttonContainer, {fontFamily: "Montserrat-Regular", bottom: 160, position: 'absolute', alignItems: 'stretch', justifyContent: 'center', width: '100%'}]}>
                     <Button
                         title={t('createNewAccount')}
-                        /* Request a pin for the new wallet */
+                       
                         onPress={() => this.props.navigation.navigate('Disclaimer', { nextRoute: 'CreateWallet' })}
                         color={this.props.screenProps.theme.buttonColour}
                     />
-                </View>
+                </View> */}
 
                 <View style={[Styles.buttonContainer, {bottom: 100, position: 'absolute', alignItems: 'stretch', justifyContent: 'center', width: '100%'}]}>
                     <Button

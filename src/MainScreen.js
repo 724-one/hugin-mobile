@@ -423,7 +423,7 @@ export class MainScreen extends React.PureComponent {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
       this.animatedValue = new Animated.Value(0);
     }
 
@@ -439,7 +439,8 @@ export class MainScreen extends React.PureComponent {
 
           Animated.timing(this.animatedValue, {
             toValue: flipFlop ? 0 : 224,
-            duration: 30000
+            duration: 30000,
+            useNativeDriver:true
           }).start(() => {
             flipFlop = flipFlop ? false : true;
             keepAnimating();
@@ -449,7 +450,8 @@ export class MainScreen extends React.PureComponent {
 
           Animated.timing(this.animatedValue, {
             toValue: 224,
-            duration: 30000
+            duration: 30000,
+            useNativeDriver:true
           }).start(() => {
             keepAnimating();
 
@@ -829,14 +831,14 @@ class BalanceComponentNoTranslation extends React.Component {
             expandedBalance: false,
         };
 
-        // this.animation = new Animated.Value(0);
+        this.animation = new Animated.Value(0);
 
         this.balanceRef = (ref) => this.balance = ref;
         this.valueRef = (ref) => this.value = ref;
     }
 
 
-        componentWillMount() {
+        componentDidMount() {
           // this.animatedValue = new Animated.Value(0);
         }
 

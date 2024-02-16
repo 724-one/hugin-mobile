@@ -13,6 +13,7 @@ import { BottomButton } from './SharedComponents';
 
 import './i18n.js';
 import { withTranslation } from 'react-i18next';
+import { TouchableOpacity } from 'react-native';
 
 class DisclaimerScreenNoTranslation extends React.Component {
     static navigationOptions = {
@@ -125,14 +126,35 @@ class DisclaimerScreenNoTranslation extends React.Component {
 
                     </View>
 
-                    <BottomButton
+
+                    <View style={{
+                    position:"relative",
+                    alignItems:"stretch",
+                    justifyContent:"center",
+                    width:'100%',
+                    bottom:0
+                }}>
+                    <TouchableOpacity 
+                    style={{width:"100%",padding:10,justifyContent:"center",alignItems:"center",
+                     backgroundColor:this.props.screenProps.theme.buttonColour}}
+                     onPress={() => {
+                        this.props.navigation.navigate('ChooseAuthMethod', { nextRoute: this.props.navigation.state.params.nextRoute })
+                    }}
+                    disabled={!this.state.feeAccepted || !this.state.keyOwnershipAccepted || !this.state.warrantyAccepted}
+                     >
+                        <Text style={{color:"#FFFFFF"}}>{t('continue')}</Text>
+                    </TouchableOpacity>
+
+                </View>
+
+                    {/* <BottomButton
                         title={t('continue')}
                         onPress={() => {
                             this.props.navigation.navigate('ChooseAuthMethod', { nextRoute: this.props.navigation.state.params.nextRoute })
                         }}
                         disabled={!this.state.feeAccepted || !this.state.keyOwnershipAccepted || !this.state.warrantyAccepted}
                         {...this.props}
-                    />
+                    /> */}
                 </View>
             </View>
         );

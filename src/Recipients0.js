@@ -129,10 +129,10 @@ export class RecipientsScreen extends React.Component {
                                     color: this.props.screenProps.theme.primaryColour,
                                     fontFamily: 'Montserrat-SemiBold'
                                 }}
-                                subtitleStyle={{
-                                    color: this.props.screenProps.theme.slightlyMoreVisibleColour,
-                                    fontFamily: 'Montserrat-Regular'
-                                }}
+                                // subtitleStyle={{
+                                //     color: this.props.screenProps.theme.slightlyMoreVisibleColour,
+                                //     fontFamily: 'Montserrat-Regular'
+                                // }}
                                 onPress={() => {
                                     this.props.navigation.navigate(
                                         'ChatScreen', {

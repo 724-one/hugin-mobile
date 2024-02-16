@@ -13,7 +13,7 @@ export class Spinner extends React.Component {
     }
 
 
-    componentWillMount() {
+    componentDidMount() {
       this.animatedValue = new Animated.Value(0);
     }
 
@@ -25,7 +25,8 @@ export class Spinner extends React.Component {
 
               Animated.timing(this.animatedValue, {
                 toValue: flipFlop ? 0 : 224,
-                duration: 3000
+                duration: 3000,
+                useNativeDriver:true
               }).start(() => {
                 flipFlop = flipFlop ? false : true;
                 keepAnimating();
@@ -35,7 +36,8 @@ export class Spinner extends React.Component {
 
               Animated.timing(this.animatedValue, {
                 toValue: 224,
-                duration: 3000
+                duration: 3000,
+                useNativeDriver:true
               }).start(() => {
                 keepAnimating();
 
