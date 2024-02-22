@@ -10,10 +10,12 @@ export class XKRLogo extends React.Component {
     constructor(props) {
         super(props);
         this.animation = new Animated.Value(0);
+      this.animatedValue = new Animated.Value(0);
+
     }
 
 
-    componentWillMount() {
+    componentDidMount() {
       this.animatedValue = new Animated.Value(0);
     }
 

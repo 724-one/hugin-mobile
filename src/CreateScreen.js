@@ -149,6 +149,10 @@ class CreateWalletScreenNoTranslation extends React.Component {
 
     render() {
       const { t } = this.props;
+
+      return(
+        <Text>helo </Text>
+      )
       
         return(
             <View style={{ flex: 1, justifyContent: 'flex-start', backgroundColor: this.props.screenProps.theme.backgroundColour }}>

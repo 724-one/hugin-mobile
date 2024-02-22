@@ -418,9 +418,9 @@ export class SetPinScreen extends React.Component {
     render() {
         const subtitle = `to keep your ${Config.coinName} secure`;
         
-        return(
-            <Text>helo </Text>
-        )
+        // return(
+        //     <Text>helo </Text>
+        // )
         return(
             <View style={{
                 flex: 1,

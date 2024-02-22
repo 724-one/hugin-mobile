@@ -103,14 +103,7 @@ export class SplashScreen extends React.Component {
     }
 
 
-        componentWillMount() {
-
-        }
-
-        componentDidMount() {
-
-        }
-
+       
 
     render() {
 
